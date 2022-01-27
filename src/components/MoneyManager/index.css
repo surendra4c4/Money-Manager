@@ -1,0 +1,127 @@
+/* Write your CSS here */
+.bg-container {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 10px;
+  padding-left: 70px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.name {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.welcome-note {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.span-class {
+  color: #0b69ff;
+}
+
+.amount-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-bottom: 15px;
+}
+
+.details-container {
+  border-color: #7e858e;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+}
+
+.form-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.input-class {
+  border-radius: 2px;
+  border-color: #d7dfe9;
+  border-width: 1px;
+  padding: 3px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  outline: none;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  border-width: 0px;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 5px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.width {
+  width: 50%;
+}
+
+.border-container {
+  border-color: #d7dfe9;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 0px;
+  list-style-type: none;
+}
+
+.small-containers {
+  display: flex;
+  justify-content: space-between;
+  width: 72%;
+}
+
+.list-items {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.history-list-container {
+  padding-left: 0px;
+  margin-top: 0px;
+}

@@ -1,0 +1,89 @@
+/* Write your CSS here */
+.three-containers-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item {
+  list-style-type: none;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.balance-container {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+
+.income-container {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+
+.expenses-container {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
+
+.images {
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+}
+
+.amount-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
+}
+
+.balance-paragraph {
+  color: #84cc16;
+  font-family: 'Roboto';
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.balance-heading {
+  color: #84cc16;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.income-paragraph {
+  color: #06b6d4;
+  font-family: 'Roboto';
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.income-heading {
+  color: #06b6d4;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.expenses-paragraph {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.expenses-heading {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 0px;
+}
